@@ -41,7 +41,6 @@ task :check_links => :build do
     allow_hash_ref: true,
     alt_ignore: [/.*/],
     file_ignore: [/404.html/],
-    url_ignore: [/guides\/v2.3/],
     error_sort: :desc, # Sort by invalid link instead of affected file path (default). This makes it easier to see how many files the bad link affects.
     parallel: { :in_processes => 3 },
     typhoeus: { :followlocation => true, :connecttimeout => 10, :timeout => 30 },

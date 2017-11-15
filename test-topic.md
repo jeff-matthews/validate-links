@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: home
 title:  "These links will fail"
 date:   2017-11-16 14:09:03 -0600
 categories: jekyll update
